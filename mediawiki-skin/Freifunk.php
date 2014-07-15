@@ -128,11 +128,9 @@ class FreifunkTemplate extends QuickTemplate {
 			<!-- skiplink anchor: navigation -->
 			<div id="nav_main">
 				<ul>
-					<li><a href="http://blog.freifunk-franken.de/">Neues</a></li>
 					<li id="current"><a href="<?php echo htmlspecialchars($this->data['nav_urls']['mainpage']['href'])?>"<?php
 			echo $skin->tooltipAndAccesskeyAttribs('n-mainpage') ?>>Wiki</a></li>
-					<li><a href="http://forum.freifunk-franken.de/">Forum</a></li>
-					<li><a href="http://karte.freifunk-franken.de/">Karte</a></li>
+					<li><a href="https://netmon.freifunk-franken.de/">Netmon</a></li>
 				</ul>
 				<div class="searchbox">
                                     <form id="searchForm" name="searchForm" action="<?php $this->text('searchaction') ?>">
