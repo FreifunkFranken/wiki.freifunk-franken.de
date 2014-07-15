@@ -1463,4 +1463,7 @@ p + .editsection + a + h3 {
 	_padding-top: 10px;
 }
 
+.mw-editsection {
+	font-size: 40%;
+	margin-left: 1em;
 }
