@@ -73,11 +73,11 @@
   h6 { font-size: 116.67%; font-style:italic }  / 14px */
 
   #header h1 {
-    font-size:2.5em;
-    letter-spacing:-2px;
-    line-height:65%;
-    color:#000;
-    padding: 0 0 20px 130px;
+	font-size: 2.5em;
+	letter-spacing: -2px;
+	line-height: 65%;
+	color: #ffffff;
+	padding: 0 0 5px 50px;
   }
 
   #header span {
@@ -144,7 +144,7 @@
   #header a { color:#000; }
   #header a:focus, a:hover, a:active { text-decoration:none; }
 
-  #topnav a { color: #999; font-weight: normal; background:transparent; text-decoration:none; }
+  #topnav a { font-weight: normal; background:transparent; text-decoration:none; }
   #topnav a:focus, 
   #topnav a:hover,
   #topnav a:active { text-decoration:underline; background-color: transparent;}
