@@ -92,4 +92,9 @@
   #nav_sub ul li .selected a:active {
     background: #4e5155 url("../../yaml/navigation/images/shiny_buttons/background_active.gif") repeat-x top right; 
   }
+  
+  /* https://github.com/FreifunkFranken/wiki.freifunk-franken.de/issues/2 */
+  #nav_sub ul li#ca-talk {
+    display: none;
+  }
 }
