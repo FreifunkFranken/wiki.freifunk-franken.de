@@ -102,13 +102,18 @@ span.subpages {
 	border: none;
 }
 
-#catlinks {
+.catlinks {
 	border: 1px solid #aaa;
 	background-color: #f9f9f9;
 	padding: 5px;
 	margin-top: 1em;
 	clear: both;
 }
+
+.catlinks-allhidden {
+    display: none;
+}
+
 /* currently unused, intended to be used by a metadata box
 in the bottom-right corner of the content area */
 .documentDescription {
