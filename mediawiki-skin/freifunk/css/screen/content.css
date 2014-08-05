@@ -76,8 +76,8 @@
 	font-size: 2.5em;
 	letter-spacing: -2px;
 	line-height: 65%;
-	color: #ffffff;
-	padding: 0 0 5px 50px;
+	color: #000;
+	padding: 10px;
   }
 
   #header span {
@@ -145,6 +145,7 @@
   #header a:focus, a:hover, a:active { text-decoration:none; }
 
   #topnav a { font-weight: normal; background:transparent; text-decoration:none; }
+  #topnav a:last-child { margin-left: 65px; }
   #topnav a:focus, 
   #topnav a:hover,
   #topnav a:active { text-decoration:underline; background-color: transparent;}
