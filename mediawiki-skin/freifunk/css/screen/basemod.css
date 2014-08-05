@@ -28,14 +28,14 @@
   /* (de) Randbereiche & Seitenhintergrund */
   body
   {
-    background: #4D87C7 url(../../images/bg_blue.gif) repeat-x fixed left top;
+    background: #c2c2c2;
     padding: 10px 0; 
   }
   
   /* (en) Centering layout in old IE-versions */
   /* (de) Zentrierung des Layouts in alten IE-versionen */
   body { text-align: center; }
-  #page_margins { text-align:left; margin: 0 auto; }
+  #page_margins { text-align:left; margin: 0 auto; box-shadow: 0px 0px 15px 0px black; }
 
   /* (en) Layout: width, background, borders */
   /* (de) Layout: Breite, Hintergrund, Rahmen */
