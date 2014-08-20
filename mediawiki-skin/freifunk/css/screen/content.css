@@ -135,10 +135,10 @@
    *
    */
 
-  a {color: #AA1124; text-decoration:none;}
+  a {color: #dc0067; text-decoration:none;}
   a:focus,
   a:hover,
-  a:active {color: #AA1124; text-decoration:underline;}
+  a:active {color: #dc0067; text-decoration:underline;}
   
   /* no decoration for the h1 header link */
   #header a { color:#000; }
