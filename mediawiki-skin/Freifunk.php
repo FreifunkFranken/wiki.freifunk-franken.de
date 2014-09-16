@@ -129,6 +129,7 @@ class FreifunkTemplate extends QuickTemplate {
 					<li id="current"><a href="<?php echo htmlspecialchars($this->data['nav_urls']['mainpage']['href'])?>"<?php
 			echo $skin->tooltipAndAccesskeyAttribs('n-mainpage') ?>>Wiki</a></li>
 					<li><a href="https://netmon.freifunk-franken.de/">Netmon</a></li>
+					<li><a href="http://libremap.freifunk-franken.de:5984/libremap-dev/_design/libremap-webui/index.html#">Libremap</a></li>
 				</ul>
 				<div class="searchbox">
                                     <form id="searchForm" name="searchForm" action="<?php $this->text('searchaction') ?>">
