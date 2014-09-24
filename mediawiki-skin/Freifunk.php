@@ -133,7 +133,7 @@ class FreifunkTemplate extends QuickTemplate {
 				</ul>
 				<div class="searchbox">
                                     <form id="searchForm" name="searchForm" action="<?php $this->text('searchaction') ?>">
-                                      <input class="suchBox" type="text" onblur="this.value='Suchbegriff eingeben...'" onclick="this.value=''" value="Suchbegriff eingeben..." name="search"/>
+                                      <input class="suchBox" type="text" onblur="this.value='Suche...'" onclick="this.value=''" value="Suche..." name="search"/>
                                     </form>
                                 </div>
 			</div>
