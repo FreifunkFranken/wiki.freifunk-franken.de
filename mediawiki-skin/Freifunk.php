@@ -247,11 +247,9 @@ class FreifunkTemplate extends QuickTemplate {
 		<!-- end: #main -->
 		<!-- begin: #footer -->
 		<div id="footer">
-		  Hinter diesen Seiten steckt ein <a href="">Mediawiki</a>, das Layout basiert auf
-                  <a href="http://www.yaml.de">
-                    <img border="0" style="position: relative; top: 5px;" alt="based on YAML" src="<?php $this->text('stylepath') ?>/<?php $this->text('stylename') ?>/images/yaml_base.gif"/>
-                  </a>.
-        </div>
+			<div style="text-align:center;">Hinter dieser Seite steht <a href="https://www.mediawiki.org/wiki/MediaWiki/de">Mediawiki</a>, ein OpenSource Content System bei sich jeder beteiligen kann. Das Layout basiert auf <a href="http://www.yaml.de">YAML</a></div>
+			<div style="text-align:right;"><a href="https://wiki.freifunk-franken.de/w/Freifunk_Franken:Impressum">Impressum</a></div>
+		</div>
 		<!-- end: #footer -->
 	</div>
 </div>
