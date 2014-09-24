@@ -10,6 +10,6 @@ Ursprünglich erstellt von https://github.com/melle/ffp-webdesign/tree/master/me
 5. Wenn die Änderungen gut waren in git einchecken.
 6. Wenn die Änderungen schlecht waren Änderungen rückgängig machen und Originale schnell wieder auf den Server spielen.
 
-Änderungen bitte immer einzeln einchecken und sich am besten immer auf ein issue beziehen.
+Änderungen bitte immer möglichst einzeln einchecken und sich am besten immer auf ein issue beziehen.
 
 Bitte auf keinen Fall Dateien mit Passwörtern (z.B. LocalSettings.php) einchecken!
