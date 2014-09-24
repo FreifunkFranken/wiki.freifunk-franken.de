@@ -118,7 +118,6 @@ class FreifunkTemplate extends QuickTemplate {
                         echo substr($personalUrls, 0, strlen($personalUrls) - 3); ?>
                                 </span>
 		        </div>
-	            <div id="headerbg"></div>
                 <h1>Freifunk Franken | Wiki</h1>
                 </div>
 		<!-- begin: main navigation #nav -->
