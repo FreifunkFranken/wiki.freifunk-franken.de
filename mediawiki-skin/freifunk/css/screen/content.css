@@ -97,7 +97,20 @@
   strong,b { font-weight: bold }
   em,i { font-style:italic }
 
-  pre, code { font-family: monospace; font-size: 1.1em; }
+  pre, code { 
+    font-family: monospace; 
+    font-size: small;
+    line-height: 1.1em;
+    background-color: #CCC;
+    color: black;
+    display: block;
+    padding: 0.5em;
+  }
+
+  code {
+    font-family: Courier;
+    font-weight: bold;
+  }
 
   acronym, abbr {
     letter-spacing: .07em;
