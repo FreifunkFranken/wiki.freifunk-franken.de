@@ -1,35 +1,30 @@
 <?php
+
 /**
- * Freifunk skin
+ * Skin file for skin Freifunk2
  *
- * @todo document
  * @file
  * @ingroup Skins
  */
 
-if( !defined( 'MEDIAWIKI' ) )
-	die( -1 );
-
 /**
  * Inherit main code from SkinTemplate, set the CSS and template filter.
- * @todo document
  * @ingroup Skins
  */
-class SkinFreifunk extends SkinTemplate {
+class SkinFreifunk2 extends SkinTemplate {
 	/** Using freifunk. */
 	function initPage( &$out ) {
 		SkinTemplate::initPage( $out );
-		$this->skinname  = 'freifunk';
-		$this->stylename = 'freifunk';
-		$this->template  = 'FreifunkTemplate';
+		$this->skinname  = 'Freifunk2';
+		$this->stylename = 'Freifunk2';
+		$this->template  = 'FreifunkTemplate2';
 	}
 }
 
 /**
- * @todo document
  * @ingroup Skins
  */
-class FreifunkTemplate extends QuickTemplate {
+class FreifunkTemplate2 extends QuickTemplate {
 	var $skin;
 	/**
 	 * Template filter callback for Freifunk skin.
@@ -314,7 +309,7 @@ class FreifunkTemplate extends QuickTemplate {
 				<li id="t-ispermalink"<?php echo $this->skin->tooltip('t-ispermalink') ?>><?php $this->msg('permalink') ?></li><?php
 		}
 
-		wfRunHooks( 'FreifunkTemplateToolboxEnd', array( &$this ) );
+		wfRunHooks( 'FreifunkTemplate2ToolboxEnd', array( &$this ) );
 		wfRunHooks( 'SkinTemplateToolboxEnd', array( &$this ) );
 ?>
 			</ul>
