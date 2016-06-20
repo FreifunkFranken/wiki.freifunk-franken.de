@@ -60,11 +60,11 @@
   }
 
   h1 { font-size: 200% }
-  h2 { font-size: 150%; border-bottom: 1px solid lightgray; }
-  h3 { font-size: 125% }
-  h4 { font-size: 150% }
-  h5 { font-size: 133.33% }
-  h6 { font-size: 116.67%; font-style:italic }
+  h2 { font-size: 170%; border-bottom: 1px solid lightgray; }
+  h3 { font-size: 150% }
+  h4 { font-size: 130% }
+  h5 { font-size: 120% }
+  h6 { font-size: 115%; font-style:italic }
 
   #header h1 {
 	font-size: 2.5em;
