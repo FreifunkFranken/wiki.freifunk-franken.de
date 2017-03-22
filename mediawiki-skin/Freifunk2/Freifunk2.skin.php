@@ -123,7 +123,6 @@ class FreifunkTemplate2 extends QuickTemplate {
 					<li id="current"><a href="<?php echo htmlspecialchars($this->data['nav_urls']['mainpage']['href'])?>"<?php
 			echo $skin->tooltipAndAccesskeyAttribs('n-mainpage') ?>>Wiki</a></li>
 					<li><a href="https://monitoring.freifunk-franken.de/">Monitoring</a></li>
-					<li><a href="https://netmon.freifunk-franken.de/">Netmon</a></li>
 				</ul>
 				<div class="searchbox">
                                     <form id="searchForm" name="searchForm" action="<?php $this->text('searchaction') ?>">
